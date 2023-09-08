@@ -1,3 +1,36 @@
-html {
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
     box-sizing: border-box;
+}
+
+/* Color class template */
+
+.green-bg {
+    background-color: #5cb85f;
+}
+
+.grey-bg {
+    background-color: #f1f3ff;
+}
+
+/* End Section */
+
+.left-header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-header-section h3 {
+    width: inherit;
+}
+
+.right-header-section img {
+    position: relative;
+    right: -130px;
 }
