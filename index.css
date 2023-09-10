@@ -1,6 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 html,
@@ -20,6 +23,12 @@ body {
 
 /* End Section */
 
+.logo {
+    background-color: #0d28a6;
+    width: 100px;
+    height: 34px;
+}
+
 .left-header-section {
     display: flex;
     justify-content: center;
@@ -30,7 +39,41 @@ body {
     width: inherit;
 }
 
+.left-header-section-content a {
+    border-radius: 2px;
+}
+
 .right-header-section img {
     position: relative;
     right: -130px;
 }
+
+/* End Section */
+/* Our Services Section */
+
+.our-services {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 1027px;
+}
+
+.left-services-section {
+    margin-right: 100px;
+}
+
+.point-services {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 18px;
+}
+
+.point-services p {
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+/* End Section */
