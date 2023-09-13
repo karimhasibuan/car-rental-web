@@ -22,6 +22,10 @@ body {
     background-color: #f1f3ff;
 }
 
+.bluedark-bg {
+    background-color: #0d28a6;
+}
+
 /* End Section */
 
 .logo {
@@ -113,4 +117,44 @@ body {
 
 .why-us-card p {
     font-size: 14px;
+}
+
+/* End Section */
+/* Testimonial Section */
+
+/* End Section */
+/* CTA Banner Section */
+.cta-banner {
+    border-radius: 13px;
+}
+
+.ctabanner-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctabanner-section h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 64px;
+    padding-bottom: 16px;
+    color: #ffffff;
+}
+
+.ctabanner-section p {
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 52px;
+    color: #ffffff;
+}
+
+.ctabanner-btn {
+    margin-bottom: 64px;
 }
