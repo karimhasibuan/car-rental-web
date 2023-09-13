@@ -27,6 +27,11 @@ body {
 }
 
 /* End Section */
+/* Header Section */
+
+.navbar-nav li:nth-child(5) {
+    border-radius: 2px;
+}
 
 .logo {
     background-color: #0d28a6;
