@@ -240,6 +240,21 @@ body {
     width: 50%;
 }
 
+.right-faq-section .item-faq-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.right-faq-section .item-faq-section p,
+.right-faq-section .item-faq-section img {
+    margin: 18px 24px;
+}
+
 /* End Section */
 /* Footer Section */
 
