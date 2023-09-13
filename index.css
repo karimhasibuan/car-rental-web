@@ -157,4 +157,21 @@ body {
 
 .ctabanner-btn {
     margin-bottom: 64px;
+    border-radius: 2px;
+}
+
+/* End Section */
+/* FAQ Section */
+
+.faq-section {
+    margin: 100px auto;
+    display: flex;
+}
+
+.left-faq-section {
+    width: 50%;
+}
+
+.right-faq-section {
+    width: 50%;
 }
