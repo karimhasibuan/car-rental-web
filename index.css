@@ -127,6 +127,68 @@ body {
 /* End Section */
 /* Testimonial Section */
 
+.testimonial {
+    margin: 100px auto;
+}
+
+.lower-testimonial-section {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.testimonial .card-testimonial {
+    display: flex;
+    position: relative;
+    margin-right: 32px;
+    padding: 69px 0px;
+    width: 619px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    background-color: #f1f3ff;
+    box-shadow: 0px 0px 4px 0px #00000026;
+}
+
+.testimonial .card-testimonial:nth-child(1) {
+    left: -257px;
+}
+
+.testimonial .card-testimonial:nth-child(2) {
+    left: -250px;
+}
+
+.testimonial .card-testimonial:nth-child(3) {
+    left: -245px;
+}
+
+.left-card-testimonial {
+    margin: auto 46px;
+}
+
+.right-card-testimonial {
+    margin-right: 32px;
+    width: 100%;
+}
+
+.desc-card-testimonial {
+    width: 415px;
+}
+
+.navigation-testimonial-section {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-testimonial-section img:nth-child(1) {
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.navigation-testimonial-section img {
+    cursor: pointer;
+}
+
 /* End Section */
 /* CTA Banner Section */
 .ctabanner-section {
