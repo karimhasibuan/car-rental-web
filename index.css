@@ -47,6 +47,8 @@ body {
 
 .left-header-section h3 {
     width: inherit;
+    font-size: 36px;
+    line-height: 54px;
 }
 
 .left-header-section-content a {
@@ -310,3 +312,12 @@ body {
 }
 
 /* End Section */
+
+/* Responsive Section */
+
+@media screen and (max-width: 360px) {
+    .right-header-section img {
+        width: 344.22px;
+        height: 199px;
+    }
+}
