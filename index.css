@@ -39,6 +39,10 @@ body {
     height: 34px;
 }
 
+.header-section {
+    margin-top: 37px;
+}
+
 .left-header-section {
     display: flex;
     justify-content: center;
@@ -50,12 +54,17 @@ body {
     line-height: 54px;
 }
 
+.left-header-section-content {
+    padding-left: 102px;
+    padding-right: 32px;
+}
+
 .left-header-section-content a {
     border-radius: 2px;
 }
 
-.right-header-section-content {
-    width: 50%;
+.right-header-section img {
+    width: 100%;
 }
 
 /* End Section */
