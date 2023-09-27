@@ -46,7 +46,6 @@ body {
 }
 
 .left-header-section h3 {
-    width: inherit;
     font-size: 36px;
     line-height: 54px;
 }
@@ -57,7 +56,11 @@ body {
 
 .right-header-section img {
     position: relative;
-    right: -116px;
+    right: 40px;
+}
+
+.right-header-section-content {
+    width: 50%;
 }
 
 /* End Section */
