@@ -310,7 +310,14 @@ body {
 /* Responsive Section */
 
 @media screen and (max-width: 360px) {
+    .left-header-section-content {
+        margin-top: 32px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .right-header-section img {
+        margin-top: 24px;
         width: 344.22px;
         height: 199px;
     }
