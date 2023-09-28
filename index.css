@@ -358,6 +358,53 @@ body {
         margin-bottom: 16px;
     }
 
+    .testimonial {
+        margin: 50px auto;
+        width: 336px;
+    }
+
+    .lower-testimonial-section {
+        display: block;
+        justify-content: center;
+    }
+
+    .card-testimonial:nth-child(1) {
+        display: none !important;
+    }
+
+    .card-testimonial:nth-child(2) {
+        display: block !important;
+        left: 0px !important;
+        width: 100%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .card-testimonial:nth-child(2) .left-card-testimonial {
+        margin: auto 0px;
+        text-align: center;
+        padding-top: 40px !important;
+    }
+
+    .card-testimonial:nth-child(2) .right-card-testimonial .rating-card-testimonial {
+        text-align: center;
+        margin: 24px auto;
+    }
+
+    .card-testimonial:nth-child(2) .desc-card-testimonial {
+        width: 100%;
+        padding: 0px 32px 0px 32px;
+    }
+
+    .card-testimonial:nth-child(2) p {
+        width: 100%;
+        padding: 0px 32px 24px 32px;
+    }
+
+    .card-testimonial:nth-child(3) {
+        display: none !important;
+    }
+
     .ctabanner-section h3 {
         font-size: 24px;
         line-height: 36px;
