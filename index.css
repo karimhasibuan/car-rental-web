@@ -71,16 +71,9 @@ body {
 /* Our Services Section */
 
 .our-services {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 100px;
     width: 1027px;
-}
-
-.left-services-section {
-    margin-right: 100px;
 }
 
 .point-services {
