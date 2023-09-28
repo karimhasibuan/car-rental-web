@@ -322,11 +322,21 @@ body {
     .left-services-section {
         display: flex;
         justify-content: center;
+        margin-bottom: 24px;
     }
 
     .left-services-section img {
         width: 252px;
         height: 228px;
+    }
+
+    .content-list-services p {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .point-services p {
+        font-size: 14px;
     }
 
     .why-us-upper {
