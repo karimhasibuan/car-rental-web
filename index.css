@@ -39,6 +39,10 @@ body {
     height: 34px;
 }
 
+.header-section {
+    margin-top: 37px;
+}
+
 .left-header-section {
     display: flex;
     justify-content: center;
@@ -46,7 +50,13 @@ body {
 }
 
 .left-header-section h3 {
-    width: inherit;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.left-header-section-content {
+    padding-left: 102px;
+    padding-right: 32px;
 }
 
 .left-header-section-content a {
@@ -54,24 +64,16 @@ body {
 }
 
 .right-header-section img {
-    position: relative;
-    right: -116px;
+    width: 100%;
 }
 
 /* End Section */
 /* Our Services Section */
 
 .our-services {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
     align-items: center;
-    margin-top: 100px;
+    padding-top: 100px;
     width: 1027px;
-}
-
-.left-services-section {
-    margin-right: 100px;
 }
 
 .point-services {
@@ -97,14 +99,8 @@ body {
     margin-bottom: 40px;
 }
 
-.why-us-lower {
-    display: flex;
-    justify-content: space-between;
-}
-
 .why-us-card {
-    width: 250px;
-    height: auto;
+    margin-right: 8px;
     padding: 24px;
     border-radius: 8px;
     border: 1px solid #d0d0d0;
@@ -310,3 +306,141 @@ body {
 }
 
 /* End Section */
+
+/* Responsive Section */
+
+@media screen and (max-width: 360px) {
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+    .left-header-section-content {
+        margin-top: 32px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .right-header-section img {
+        margin-top: 24px;
+        width: 344.22px;
+        height: 199px;
+    }
+
+    .our-services {
+        width: 100%;
+    }
+
+    .left-services-section {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .left-services-section img {
+        width: 252px;
+        height: 228px;
+    }
+
+    .content-list-services p {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .point-services p {
+        font-size: 14px;
+    }
+
+    .why-us-upper {
+        text-align: center;
+    }
+
+    .why-us-card {
+        margin-bottom: 16px;
+    }
+
+    .testimonial {
+        margin: 50px auto;
+        width: 336px;
+    }
+
+    .lower-testimonial-section {
+        display: block;
+        justify-content: center;
+    }
+
+    .card-testimonial:nth-child(1) {
+        display: none !important;
+    }
+
+    .card-testimonial:nth-child(2) {
+        display: block !important;
+        left: 0px !important;
+        width: 100%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .card-testimonial:nth-child(2) .left-card-testimonial {
+        margin: auto 0px;
+        text-align: center;
+        padding-top: 40px !important;
+    }
+
+    .card-testimonial:nth-child(2) .right-card-testimonial .rating-card-testimonial {
+        text-align: center;
+        margin: 24px auto;
+    }
+
+    .card-testimonial:nth-child(2) .desc-card-testimonial {
+        width: 100%;
+        padding: 0px 32px 0px 32px;
+    }
+
+    .card-testimonial:nth-child(2) p {
+        width: 100%;
+        padding: 0px 32px 24px 32px;
+    }
+
+    .card-testimonial:nth-child(3) {
+        display: none !important;
+    }
+
+    .ctabanner-section h3 {
+        font-size: 24px;
+        line-height: 36px;
+        padding-left: 58px;
+        padding-right: 58px;
+    }
+
+    .ctabanner-section p {
+        width: 100%;
+        padding-left: 58px;
+        padding-right: 58px;
+        padding-bottom: 32px;
+    }
+
+    .faq-section {
+        display: block;
+    }
+
+    .faq-section .left-faq-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq-section .right-faq-section {
+        width: 100%;
+    }
+
+    .footer-section {
+        display: block;
+    }
+
+    .footer-section .navigation-footer-section a {
+        margin-bottom: 16px;
+    }
+
+    .footer-section .copyright-footer-section {
+        margin-top: 16px;
+    }
+}
