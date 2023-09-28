@@ -314,4 +314,18 @@ body {
         width: 344.22px;
         height: 199px;
     }
+
+    .our-services {
+        width: 100%;
+    }
+
+    .left-services-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-services-section img {
+        width: 252px;
+        height: 228px;
+    }
 }
