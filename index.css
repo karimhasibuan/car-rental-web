@@ -329,6 +329,14 @@ body {
         height: 228px;
     }
 
+    .why-us-upper {
+        text-align: center;
+    }
+
+    .why-us-card {
+        margin-bottom: 16px;
+    }
+
     .ctabanner-section h3 {
         font-size: 24px;
         line-height: 36px;
