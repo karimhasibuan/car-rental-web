@@ -329,6 +329,19 @@ body {
         height: 228px;
     }
 
+    .faq-section {
+        display: block;
+    }
+
+    .faq-section .left-faq-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .faq-section .right-faq-section {
+        width: 100%;
+    }
+
     .footer-section {
         display: block;
     }
