@@ -309,7 +309,7 @@ body {
 
 /* Responsive Section */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
     .navbar-toggler {
         border: none !important;
         outline: none !important;
@@ -322,8 +322,6 @@ body {
 
     .right-header-section img {
         margin-top: 24px;
-        width: 344.22px;
-        height: 199px;
     }
 
     .our-services {
