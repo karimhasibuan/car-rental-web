@@ -1,11 +1,11 @@
 {
-  "name": "binar-fsw-challenge-04",
-  "version": "1.0.0",
-  "description": "Project HTTP Server dan DOM",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "@karimhasibuan",
-  "license": "MIT"
+    "name": "binar-fsw-challenge-04",
+    "version": "1.0.0",
+    "description": "Project HTTP Server dan DOM",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server/index.js"
+    },
+    "author": "@karimhasibuan",
+    "license": "MIT"
 }
