@@ -3,12 +3,10 @@ const getHtml = require('./helpers/getHtml.js');
 const fs = require('fs');
 const readStaticFiles = require('./helpers/readStaticFiles.js');
 const PORT = 8000;
-const data = require('./helpers/data.js');
 const onReq = (req, res) => {
     const url = req.url;
 
     if (url === '/') {
-        console.log({ data });
         getHtml('index.html', res);
     } else if (url === '/cars') {
         getHtml('carList.html', res);
