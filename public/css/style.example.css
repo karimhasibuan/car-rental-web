@@ -306,6 +306,19 @@ body {
 }
 
 /* End Section */
+/* Search Cars Section */
+.search-cards {
+    position: relative;
+    margin-top: -59px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.search-cards a {
+    border-radius: 2px;
+}
+/* End Section */
 
 /* Responsive Section */
 
