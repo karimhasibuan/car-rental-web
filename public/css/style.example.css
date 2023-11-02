@@ -318,6 +318,22 @@ body {
 .search-cards a {
     border-radius: 2px;
 }
+
+.card-card {
+    min-width: 268px;
+    min-height: 196px;
+}
+
+.car-card-body {
+    padding-top: 1.5em;
+    padding: 0;
+}
+.car-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    margin: auto;
+}
 /* End Section */
 
 /* Responsive Section */
