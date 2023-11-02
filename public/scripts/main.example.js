@@ -15,3 +15,9 @@ console.log(params);
 const app = new App();
 
 app.init().then(app.run);
+let clicked = true;
+app.testButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    app.clear();
+    app.filter().then(app.run);
+});
