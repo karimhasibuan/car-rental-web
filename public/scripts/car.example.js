@@ -48,4 +48,13 @@ class Car {
       
       `;
     }
+
+    isEmpty() {
+        return `<div class="card text-center bg-warning text-white" style="width:"50%"">
+      <div class="card-body">
+        <h5 class="card-title py-4">Cars not available!</h5>
+      </div>
+    </div>
+            `;
+    }
 }
