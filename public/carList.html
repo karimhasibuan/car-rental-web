@@ -91,7 +91,7 @@
                             <div class="form-items">
                                 <label for="tipe-driver" class="form-label">Tipe Driver</label>
                                 <select class="form-select" aria-label="Default select example" name="driverType" id="driverType" required>
-                                    <option value="" disabled selected>Pilih Tipe Driver</option>
+                                    <option value="" hidden selected>Pilih Tipe Driver</option>
                                     <option value="true">Dengan Supir</option>
                                     <option value="false">Lepas Kunci</option>
                                 </select>
@@ -100,14 +100,14 @@
                         <div class="col-sm mx-5">
                             <div class="form-items">
                                 <label for="exampleInputEmail1" class="form-label">Tanggal</label>
-                                <input type="date" class="form-control" name="date" id="date" />
+                                <input type="date" class="form-control" name="date" id="date" required />
                             </div>
                         </div>
                         <div class="col-sm-2 mx-3">
                             <div class="form-items">
                                 <label for="" class="form-label">Waktu Jemput/Ambil</label>
                                 <select class="form-select" aria-label="Default select example" name="time" id="time" required>
-                                    <option value="" disabled selected>Pilih Waktu</option>
+                                    <option value="" hidden selected>Pilih Waktu</option>
                                     <option value="8">08.00</option>
                                     <option value="9">09.00</option>
                                     <option value="10">10.00</option>
